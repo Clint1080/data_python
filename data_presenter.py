@@ -1,3 +1,6 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
 open_file = open("CupcakeInvoices.csv")
 
 purchase_amounts = []
