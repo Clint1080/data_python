@@ -15,7 +15,7 @@ for row in open_file:
     #print(purchase_amounts)
     
     
-purchase_total = sum(purchase_amounts) # adding all of the individual purches together
+purchase_total = round(sum(purchase_amounts), 2) # adding all of the individual purches together
 print('All the cupcake purchases = $', purchase_total)
 
 open_file.close()
